@@ -5,6 +5,13 @@
   import Viewport from "svelte-viewport-info"
   import Device from "svelte-device-info"
   import { text } from "svelte/internal"
+  import 'vidstack/styles/defaults.css'
+  import 'vidstack/styles/community-skin/video.css'
+
+  import { defineCustomElements } from 'vidstack/elements';
+
+  defineCustomElements();
+
 
   //  set video player to fullscreen
 

@@ -9,6 +9,8 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-node": "^1.2.4",
+    "@sveltejs/adapter-static": "^2.0.2",
     "@sveltejs/kit": "^1.5.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
@@ -25,6 +27,7 @@
     "@vime/svelte": "^5.4.0",
     "hls.js": "^1.4.2",
     "svelte-device-info": "^1.0.0",
-    "svelte-viewport-info": "^1.0.0"
+    "svelte-viewport-info": "^1.0.0",
+    "vidstack": "^0.6.10"
   }
 }
